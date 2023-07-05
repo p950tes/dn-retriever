@@ -51,7 +51,7 @@ public class DnRetriever {
 		LOGGER.info("Start date: {}", properties.getStartDate());
 		LOGGER.info("End date: {}", properties.getEndDate());
 		System.out.println();
-		
+
 		LocalDate startDate = properties.getStartDate();
 		LocalDate endDate = startDate.plusYears(properties.getNumberOfYearsPerSearch()).with(TemporalAdjusters.lastDayOfYear());
 

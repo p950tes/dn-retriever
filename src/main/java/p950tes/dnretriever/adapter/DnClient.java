@@ -19,7 +19,6 @@ import java.time.Duration;
 public class DnClient {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DnClient.class);
-    private static final boolean USE_COOKIES = true;
 
     private final HttpClient httpClient;
 
